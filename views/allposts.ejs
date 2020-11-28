@@ -1,0 +1,21 @@
+
+<%- include("partials/header"); -%>
+
+    <h1>All Posts</h1>
+
+    <%  entries.forEach(function(entry){ %>
+
+      <div class="badge badge-light">
+          <div class="b">
+
+            <h3><%= entry.affirmations %></h3>
+            <p>1. <%= entry.gone %></p>
+            <p>2. <%= entry.gtwo %></p>
+            <p>3. <%= entry.gthree %></p>
+            <p class = "p"> <%= entry.date %></p>
+            </div>
+      </div>
+
+      <% }) %>
+
+<%- include("partials/footer"); -%>

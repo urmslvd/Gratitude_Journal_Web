@@ -1,0 +1,73 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: 0;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.navbar-default {
+  background-color: #f7dad9;
+}
+
+.navbar-nav  li a:hover {
+    color: #333456 !important;
+    letter-spacing: 5px;
+}
+
+.form-control {
+  margin: 12px;
+  padding: 5px;
+  background-color: #f7dad9;
+}
+
+.btn {
+  background: #333456;
+  margin-left: 12px;
+}
+
+.btn-primary{
+  background: #333456;
+}
+
+.lable {
+  margin-left: 12px;
+}
+
+.badge-light {
+  background-color: #333456;
+  margin: 5px;
+  padding: 3px;
+
+}
+
+.b {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.p {
+  padding-top: 3px;
+  text-align: left;
+  color: #f7dad9;
+}
+
+p {
+  padding: 2px;
+}
+
+h3 {
+  margin: 3px;
+  padding: 9px;
+
+}

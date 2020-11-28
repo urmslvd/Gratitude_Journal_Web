@@ -1,0 +1,17 @@
+
+<%- include("partials/header"); -%>
+    <h1>Make Post</h1>
+    <form class="" action="/makePost" method="post">
+     <div class="form-group">
+       <label class = "lable">My Gratitude Journal</label>
+       <textarea class="form-control" name="affirmations" rows="1" cols="30" placeholder="Daily Affirmations"></textarea>
+       <textarea class="form-control" name="grateful1" rows="2" cols="30" placeholder="What are you grateful for?"></textarea>
+       <textarea class="form-control" name="grateful2" rows="2" cols="30" placeholder="What are you grateful for?"></textarea>
+       <textarea class="form-control" name="grateful3" rows="2" cols="30" placeholder="What are you grateful for?"></textarea>
+       <input class="form-control" type="date" name="date">
+     </div>
+     <button class="btn btn-primary" type="submit" name="button">Publish</button>
+   </form>
+
+
+<%- include("partials/footer"); -%>
